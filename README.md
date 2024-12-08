@@ -48,6 +48,3 @@ Future Enhancements
 
 Contact
 For questions or inquiries, feel free to reach out via deva29008@gmail.com.
-
-
-For questions or inquiries, feel free to reach out via [your email or GitHub profile link].
