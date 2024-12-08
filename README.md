@@ -20,22 +20,6 @@ This project is a **Personal Budget Tracker** combined with **Goal Setting** fun
 - **JavaScript**: Logic for form handling, data storage, and interactive chart rendering.
 - **Chart.js**: Library for rendering the pie chart to visualize budget distribution.
 
-## Project Structure
-
-project-folder/
-│
-├── html/
-│   └── index.html            # Main budget tracker page
-│   └── goal.html             # Goal setting page
-│
-├── css/
-│   └── styles.css            # Styles for the project
-│
-└── js/
-    └── script.js             # JavaScript for budget tracker logic
-    └── app_goal.js           # JavaScript for goal setting logic
-
-
 ## How to Run This Project Locally
 1. **Clone this repository**:
    ```bash
