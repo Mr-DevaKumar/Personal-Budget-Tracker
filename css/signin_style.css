@@ -1,0 +1,100 @@
+body {
+    background: url('../image/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: linear-gradient(135deg, #004e92, #000428);
+    color: white;
+    width: 535px;
+    height: 353px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    /* Ensures the text is displayed vertically */
+    transform: rotate(180deg);
+    /* Adjusts the rotation to make the text readable */
+    font-size: 61px;
+    /* Increased font size */
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* Adjusts the spacing between characters for better visibility */
+    color: white;
+    /* Make sure the text color is visible on the background */
+    padding-left: 12px;
+    padding-top: 68px;
+    padding-right: 40px;
+}
+
+
+.divider {
+    height: 100%;
+    width: 2px;
+    background: white;
+    position: absolute;
+    left: 45%;
+}
+
+.sign-in {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: -15px;
+    font-size: 40px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.input-field:focus {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.login-btn {
+    background: #ffffff;
+    color: #004e92;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 75px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 39%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background: #D9EDFF;
+}

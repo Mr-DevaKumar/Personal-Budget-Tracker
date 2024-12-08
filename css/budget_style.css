@@ -1,0 +1,189 @@
+/* General Styling */
+body {
+    background-image: url('../image/background.jpg');
+    background-size: cover;
+    /* Ensures the image covers the entire page */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-position: center;
+    /* Centers the image */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #000;
+    /* 0.5 is the opacity value */
+    color: #fff;
+}
+
+.contact-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.logo {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+nav a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styling */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+#budget-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+#budget-form div {
+    flex-basis: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #3498db;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-right: 220px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Flex Container Styling */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.summary-section,
+.charts-section {
+    flex: 1;
+    /* Adjusts the size to fit content */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Summary Section Styling */
+.summary-section h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.summary p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Pie Chart Section Styling */
+.charts-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#budget-chart {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #budget-form div {
+        flex-basis: 100%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .summary-section,
+    .charts-section {
+        margin-bottom: 20px;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
